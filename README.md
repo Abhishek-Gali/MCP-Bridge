@@ -3,11 +3,9 @@
 <p align="center">
   <img src="docs/assets/social_preview.png" alt="MCP Bridge (The API to MCP) — Evidence-Backed API Documentation-to-MCP Compiler" width="900" />
 </p>
-
-<p align="center">
-  <a href="https://github.com/Abhishek-Gali/Spigot/actions"><img src="https://github.com/Abhishek-Gali/Spigot/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
-  <img src="https://img.shields.io/badge/python-3.12%20%7C%203.13-blue" alt="Python 3.12 | 3.13" />
-  <img src="https://img.shields.io/badge/MCP_SDK-1.27.0-0f766e" alt="MCP SDK 1.27.0" />
+<a href="https://m8ven.ai/mcp/abhishek-gali-mcp-bridge-1lldml?s=readme"><img src="https://m8ven.ai/badge/mcp/abhishek-gali-mcp-bridge-1lldml?v=213e9922493bb2d8855cc7df3d36c97e" alt="M8ven Score" /></a>
+  <a href="https://m8ven.ai/mcp/abhishek-gali/mcp-bridge?s=readme"><img src="https://m8ven.ai/badge/mcp/abhishek-gali/mcp-bridge" alt="M8ven Score" /></a>
+ src="https://img.shields.io/badge/MCP_SDK-1.27.0-0f766e" alt="MCP SDK 1.27.0" />
   <img src="https://img.shields.io/badge/tests-55%20passing-16a34a" alt="55 Passing Tests" />
   <img src="https://img.shields.io/badge/license-Apache_2.0-slate" alt="License: Apache 2.0" />
 </p>
