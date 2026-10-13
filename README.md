@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://m8ven.ai/mcp/abhishek-gali-mcp-bridge-1lldml?s=readme"><img src="https://m8ven.ai/badge/mcp/abhishek-gali-mcp-bridge-1lldml" alt="M8ven Score" /></a>
+  <a href="https://m8ven.ai/mcp/abhishek-gali/mcp-bridge?s=readme"><img src="https://m8ven.ai/badge/mcp/abhishek-gali/mcp-bridge" alt="M8ven Score" /></a>
   <a href="https://github.com/Abhishek-Gali/MCP-Bridge/actions"><img src="https://github.com/Abhishek-Gali/MCP-Bridge/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
   <img src="https://img.shields.io/badge/python-3.12%20%7C%203.13-blue" alt="Python 3.12 | 3.13" />
   <img src="https://img.shields.io/badge/MCP_SDK-2.3.0-0f766e" alt="MCP SDK 2.3.0" />
