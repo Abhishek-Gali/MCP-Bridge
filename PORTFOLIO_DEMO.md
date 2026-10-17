@@ -62,3 +62,13 @@ All benchmark figures are computed deterministically by [`packages/core/evaluati
 | `naive_unreviewed_mcp` (Unfiltered Surface) | `11 / 16` (`68.8%`) | `13 / 16` (`81.2%`) | `11 / 16` (`68.8%`) | `1,001` |
 | `docforge_reviewed_full_mcp` (Reviewed Contract + Policy) | `16 / 16` (`100.0%`) | `16 / 16` (`100.0%`) | `16 / 16` (`100.0%`) | `946` |
 | **`docforge_reviewed_scoped_mcp` (Reviewed + Scoped ToolPlan)** | **`16 / 16` (`100.0%`)** | **`16 / 16` (`100.0%`)** | **`16 / 16` (`100.0%`)** | **`410` (`-59.0%`)** |
+
+---
+
+## 4. Production Boundaries & Engineering Honesty
+
+For engineers and evaluators assessing deployment readiness:
+1. **Security Claims Must Stay Precise:** Application-level checks and AST validation are in-process defense-in-depth mechanisms, not kernel or OS-level container isolation. When Docker/Podman is not installed on the host, the validation worker explicitly reports `sandbox_status="unavailable"` rather than over-claiming container isolation.
+2. **Validate Each Generated Integration:** Passing the 55-test CI suite verifies the compiler's internal invariants, mocks, and failure handlers; it does not replace testing against the actual customer backend. Always validate live credentials, permissions, rate limits, network firewalls, and real payloads in a staging environment.
+3. **Agensi & Assistant Skills are Operational Guides:** Companion agent skills (such as for Agensi or IDEs) serve as interactive workflow guides to explain compiler phases and triage blockers. They do not contain the compiler backend or cryptographic ledger, and should not be treated as a commercial standalone product without independent evaluation.
+
