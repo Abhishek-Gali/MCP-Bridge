@@ -7,7 +7,7 @@ name = "spigot-docforge-mcp"
 version = "0.1.0"
 description = "MCP Bridge (The API to MCP): Local-first offline documentation-to-MCP compiler with evidence-backed extraction, deterministic code generation, and runtime policy enforcement."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12, <3.14"
 license = { text = "Apache-2.0" }
 dependencies = [
     "mcp==2.3.0",
@@ -39,10 +39,11 @@ pythonpath = ["."]
 
 [tool.ruff]
 line-length = 120
-target-version = "py311"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
+ignore = ["UP046"]
 
 [tool.uv]
 managed = true
